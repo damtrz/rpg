@@ -1001,15 +1001,15 @@
                 // Equipped Items Generation
                 document.getElementById('charInv').innerHTML += "<div id='charEquipped'>"
                 
-                document.getElementById('charEquipped').innerHTML += (charEq.head.item.id || '') ? `<div class="charEqItem" onclick="EquipItem(charEq.head,0);">  <img class="charEqImg" src="img/${charEq.head.item.img}"/>  <div class="charEqName">${charEq.head.item.name}</div>          <div class="charEqTooltip">${charEq.head.item.tooltipText} </br> Energy po spaniu: ${charEq.head.item.charEnergyRefill} </br> Energy do looting: ${charEq.head.item.collectEnergy} </br> Energy do podróży: ${charEq.head.item.jumpEnergy}</div> </div>`   :    '<div class="charEqItem"> Głowa: <div class="charEqNameNoItem" style="    "> Brak Przedmiotu </div>';
+                document.getElementById('charEquipped').innerHTML += (charEq.head.item.id || '') ? `<div class="charEqItem" onclick="EquipItem(charEq.head,0);">  <img class="charEqImg" src="img/${charEq.head.item.img}"/>  <div class="charEqName">${charEq.head.item.name}</div>          <div class="charEqTooltip">${charEq.head.item.tooltipText} </br> Energy po spaniu: ${charEq.head.item.charEnergyRefill} </br> Energy do looting: ${charEq.head.item.collectEnergy} </br> Energy do podróży: ${charEq.head.item.jumpEnergy}</div> </div>`   :    '<div class="charEqItem"> Głowa: <div class="charEqNameNoItem" style="    "> No Item </div>';
 
-                document.getElementById('charEquipped').innerHTML += (charEq.torso.item.id || '') ? `<div class="charEqItem" onclick="EquipItem(charEq.torso,0);">  <img class="charEqImg" src="img/${charEq.torso.item.img}"/>  <div class="charEqName">${charEq.torso.item.name}</div>          <div class="charEqTooltip">${charEq.torso.item.tooltipText} </br> Energy po spaniu: ${charEq.torso.item.charEnergyRefill} </br> Energy do looting: ${charEq.torso.item.collectEnergy} </br> Energy do podróży: ${charEq.torso.item.jumpEnergy}</div> </div>`   :    '<div class="charEqItem"> Ciało: <div class="charEqNameNoItem" style="position: absolute; left:4vw; top:-1vh;"> Brak Przedmiotu </div>';
+                document.getElementById('charEquipped').innerHTML += (charEq.torso.item.id || '') ? `<div class="charEqItem" onclick="EquipItem(charEq.torso,0);">  <img class="charEqImg" src="img/${charEq.torso.item.img}"/>  <div class="charEqName">${charEq.torso.item.name}</div>          <div class="charEqTooltip">${charEq.torso.item.tooltipText} </br> Energy po spaniu: ${charEq.torso.item.charEnergyRefill} </br> Energy do looting: ${charEq.torso.item.collectEnergy} </br> Energy do podróży: ${charEq.torso.item.jumpEnergy}</div> </div>`   :    '<div class="charEqItem"> Ciało: <div class="charEqNameNoItem" style="position: absolute; left:4vw; top:-1vh;"> No Item </div>';
 
-                document.getElementById('charEquipped').innerHTML += (charEq.gloves.item.id || '') ? `<div class="charEqItem" onclick="EquipItem(charEq.gloves,0);">  <img class="charEqImg" src="img/${charEq.gloves.item.img}"/>  <div class="charEqName">${charEq.gloves.item.name}</div>          <div class="charEqTooltip">${charEq.gloves.item.tooltipText} </br> Energy po spaniu: ${charEq.gloves.item.charEnergyRefill} </br> Energy do looting: ${charEq.gloves.item.collectEnergy} </br> Energy do podróży: ${charEq.gloves.item.jumpEnergy}</div> </div>`   :    '<div class="charEqItem"> Dłonie: <div class="charEqNameNoItem" style="position: absolute; left:4vw; top:-1vh;"> Brak Przedmiotu </div>';
+                document.getElementById('charEquipped').innerHTML += (charEq.gloves.item.id || '') ? `<div class="charEqItem" onclick="EquipItem(charEq.gloves,0);">  <img class="charEqImg" src="img/${charEq.gloves.item.img}"/>  <div class="charEqName">${charEq.gloves.item.name}</div>          <div class="charEqTooltip">${charEq.gloves.item.tooltipText} </br> Energy po spaniu: ${charEq.gloves.item.charEnergyRefill} </br> Energy do looting: ${charEq.gloves.item.collectEnergy} </br> Energy do podróży: ${charEq.gloves.item.jumpEnergy}</div> </div>`   :    '<div class="charEqItem"> Dłonie: <div class="charEqNameNoItem" style="position: absolute; left:4vw; top:-1vh;"> No Item </div>';
 
-                document.getElementById('charEquipped').innerHTML += (charEq.legs.item.id || '') ? `<div class="charEqItem" onclick="EquipItem(charEq.legs,0);">  <img class="charEqImg" src="img/${charEq.legs.item.img}"/>  <div class="charEqName">${charEq.legs.item.name}</div>          <div class="charEqTooltip">${charEq.legs.item.tooltipText} </br> Energy po spaniu: ${charEq.legs.item.charEnergyRefill} </br> Energy do looting: ${charEq.legs.item.collectEnergy} </br> Energy do podróży: ${charEq.legs.item.jumpEnergy}</div> </div>`   :    '<div class="charEqItem"> Nogi: <div class="charEqNameNoItem" style="position: absolute; left:4vw; top:-1vh;"> Brak Przedmiotu </div>';
+                document.getElementById('charEquipped').innerHTML += (charEq.legs.item.id || '') ? `<div class="charEqItem" onclick="EquipItem(charEq.legs,0);">  <img class="charEqImg" src="img/${charEq.legs.item.img}"/>  <div class="charEqName">${charEq.legs.item.name}</div>          <div class="charEqTooltip">${charEq.legs.item.tooltipText} </br> Energy po spaniu: ${charEq.legs.item.charEnergyRefill} </br> Energy do looting: ${charEq.legs.item.collectEnergy} </br> Energy do podróży: ${charEq.legs.item.jumpEnergy}</div> </div>`   :    '<div class="charEqItem"> Nogi: <div class="charEqNameNoItem" style="position: absolute; left:4vw; top:-1vh;"> No Item </div>';
 
-                document.getElementById('charEquipped').innerHTML += (charEq.boots.item.id || '') ? `<div class="charEqItem" onclick="EquipItem(charEq.boots,0);">  <img class="charEqImg" src="img/${charEq.boots.item.img}"/>  <div class="charEqName">${charEq.boots.item.name}</div>          <div class="charEqTooltip">${charEq.boots.item.tooltipText} </br> Energy po spaniu: ${charEq.boots.item.charEnergyRefill} </br> Energy do looting: ${charEq.boots.item.collectEnergy} </br> Energy do podróży: ${charEq.boots.item.jumpEnergy}</div> </div>`   :    '<div class="charEqItem"> Buty: <div class="charEqNameNoItem" style="position: absolute; left:4vw; top:-1vh;"> Brak Przedmiotu </div>';
+                document.getElementById('charEquipped').innerHTML += (charEq.boots.item.id || '') ? `<div class="charEqItem" onclick="EquipItem(charEq.boots,0);">  <img class="charEqImg" src="img/${charEq.boots.item.img}"/>  <div class="charEqName">${charEq.boots.item.name}</div>          <div class="charEqTooltip">${charEq.boots.item.tooltipText} </br> Energy po spaniu: ${charEq.boots.item.charEnergyRefill} </br> Energy do looting: ${charEq.boots.item.collectEnergy} </br> Energy do podróży: ${charEq.boots.item.jumpEnergy}</div> </div>`   :    '<div class="charEqItem"> Buty: <div class="charEqNameNoItem" style="position: absolute; left:4vw; top:-1vh;"> No Item </div>';
 
                 
                 document.getElementById('charInv').innerHTML += "<div id='charItems'>";
@@ -1025,12 +1025,12 @@
                                 if(charInv[i].cb)
                                 {                        
                                     usable = "Usable";
-                                    document.getElementById('charItems').innerHTML += `<div class="invItem${usable}" style='border-right:${charInv[i].rarity} 5px solid'   onclick='${charInv[i].cb}'><img  src="img/${charInv[i].img}"/>     <div class="name" >${charInv[i].name}</div><div class="value"  >Wartość: ${charInv[i].value}</div>  <div class="amount"  >x${charInv[i].amount}</div>  </div>`;
+                                    document.getElementById('charItems').innerHTML += `<div class="invItem${usable}" style='border-right:${charInv[i].rarity} 5px solid'   onclick='${charInv[i].cb}'><img  src="img/${charInv[i].img}"/>     <div class="name" >${charInv[i].name}</div><div class="value"  >Value: ${charInv[i].value}</div>  <div class="amount"  >x${charInv[i].amount}</div>  </div>`;
                                 }
                                 else
                                 {
                                     usable = "Unusable";
-                                    document.getElementById('charItems').innerHTML += `<div class="invItem${usable}" style='border-right:${charInv[i].rarity} 5px solid' ><img  src="img/${charInv[i].img}"/>     <div class="name">${charInv[i].name}</div><div class="value">Wartość: ${charInv[i].value}</div>  <div class="amount">x${charInv[i].amount}</div>  </div>`;
+                                    document.getElementById('charItems').innerHTML += `<div class="invItem${usable}" style='border-right:${charInv[i].rarity} 5px solid' ><img  src="img/${charInv[i].img}"/>     <div class="name">${charInv[i].name}</div><div class="value">Value: ${charInv[i].value}</div>  <div class="amount">x${charInv[i].amount}</div>  </div>`;
                                 }
                             }
                             if(charInv.length - i == 1)
@@ -1046,8 +1046,6 @@
             }
             else
             {
-               // Ogólnie to tutaj ma byc spoko animacja wychodzacego z lewej ekranu ekwipunku ale ten zjeb mi sie zawsze cos kurwa spierdoli niech sie wyjebie na ryj cwelus ochujaly bedzie mnie wkurwial teraz chuj jeden
-               //mode jest nieuzywane chuj mu w dupe zjebowi
                 
                 document.getElementById('charInv').style.display = "none";
                 document.getElementById('charInv').innerHTML = "";
@@ -1080,7 +1078,7 @@
                             }
                             else
                             {                                            
-                                document.getElementById('charItems').innerHTML += `<div class="invItemUsable" style='border-right:${charInv[i].rarity} 5px solid'   onclick='CraftingSet(${charInv[i].id}, "${slot}")'><img  src="img/${charInv[i].img}"/>     <div class="name" >${charInv[i].name}</div><div class="value"  >Wartość: ${charInv[i].value}</div>  <div class="amount"  >x${charInv[i].amount}</div>  </div>`;
+                                document.getElementById('charItems').innerHTML += `<div class="invItemUsable" style='border-right:${charInv[i].rarity} 5px solid'   onclick='CraftingSet(${charInv[i].id}, "${slot}")'><img  src="img/${charInv[i].img}"/>     <div class="name" >${charInv[i].name}</div><div class="value"  >Value: ${charInv[i].value}</div>  <div class="amount"  >x${charInv[i].amount}</div>  </div>`;
                             }
                             if(charInv.length - i == 1)
                             {
@@ -1108,7 +1106,7 @@
                             }
                             else
                             {                                            
-                                    document.getElementById('charItems').innerHTML += `<div class="invItemUsable" style='border-right:${charInv[i].rarity} 5px solid'   onclick='CraftingSet(${charInv[i].id}, "${slot}")'><img  src="img/${charInv[i].img}"/>     <div class="name" >${charInv[i].name}</div><div class="value"  >Wartość: ${charInv[i].value}</div>  <div class="amount"  >x${charInv[i].amount}</div>  </div>`;
+                                    document.getElementById('charItems').innerHTML += `<div class="invItemUsable" style='border-right:${charInv[i].rarity} 5px solid'   onclick='CraftingSet(${charInv[i].id}, "${slot}")'><img  src="img/${charInv[i].img}"/>     <div class="name" >${charInv[i].name}</div><div class="value"  >Value: ${charInv[i].value}</div>  <div class="amount"  >x${charInv[i].amount}</div>  </div>`;
                             }
                             if(charInv.length - i == 1)
                             {
@@ -1185,7 +1183,7 @@
 
             if(document.getElementById('stats').style.display == "none")
             {
-                document.getElementById('stats').innerHTML = `Poziom character: ${GeneralL} &nbsp; &nbsp; &nbsp; ${GeneralExp}/${GetMaxExpGeneral()}<br><br>Poziom looting: ${collectL}  &nbsp; &nbsp; &nbsp; ${collectExp}/${GetMaxExpcollect()}<br><br>Poziom podróży: ${jumpL}&nbsp; &nbsp; &nbsp; ${jumpExp}/${GetMaxExpJump()}`;
+                document.getElementById('stats').innerHTML = `Character Level: ${GeneralL} &nbsp; &nbsp; &nbsp; ${GeneralExp}/${GetMaxExpGeneral()}<br><br>Looting Level: ${collectL}  &nbsp; &nbsp; &nbsp; ${collectExp}/${GetMaxExpcollect()}<br><br>Travel Level: ${jumpL}&nbsp; &nbsp; &nbsp; ${jumpExp}/${GetMaxExpJump()}`;
 
                 document.getElementById('charInvToggle').style.zIndex = 1;
                 document.getElementById('stats').style.display = "block";
@@ -1196,42 +1194,6 @@
                 document.getElementById('stats').style.display = "none";
                 document.getElementById('charInvToggle').style.zIndex = 3;
                 document.getElementById('StatsToggle').style.left = "14vw";
-            }
-        }
-        function Intro()
-        {
-            if(document.getElementById('gownoWarning').style.display == "block")
-            {
-            document.getElementById('intro').style.display = "block";
-            document.getElementById('intro').play();
-            document.getElementById('intro').addEventListener('ended', () => {document.getElementById('gownoWarning').style.display = "none";});
-            }
-            else
-            {
-            document.getElementById('gownoWarning').getElementsByClassName('MsgYes')[0].style = "display:block;";
-            document.getElementById('gownoWarning').getElementsByClassName('MsgNo')[0].style = "display:block;";
-            document.getElementById('intro').style.display = "none";
-            document.getElementById('intro').pause();
-            }
-        }
-        function IntroToggle()
-        {
-            let warning = document.getElementById('gownoWarning');
-            if(warning.style.display == "none")
-            {
-                warning.style.display='block';                                   
-                warning.getElementsByClassName('MsgYes')[0].style = 'display:block;';
-                warning.getElementsByClassName('MsgNo')[0].style = 'display:block;';
-                document.getElementById('intro').style.display = 'none';
-                document.getElementById('intro').pause();
-            }
-            else
-            {
-                warning.style.display='none';                                   
-                // warning.getElementsByClassName('MsgYes')[0].style = 'display:block;';
-                // warning.getElementsByClassName('MsgNo')[0].style = 'display:block;';
-                document.getElementById('intro').style.display = 'none';
-                document.getElementById('intro').pause();
             }
         }
         function Save()
@@ -1861,16 +1823,16 @@
     </style>
 </head>
 <body>
-    <div id="charInvToggle" onclick="charInventoryToggle()">Ekwipunek</div>
-    <div id="StatsToggle" onclick="StatsToggle()">Statystyki</div>
+    <div id="charInvToggle" onclick="charInventoryToggle()">Inventory</div>
+    <div id="StatsToggle" onclick="StatsToggle()">Statistics</div>
     <div id="stats" style="display:none;"></div>
     <div id="MapGenerateButton" onclick="MapGenerate('first')">Sleep</div>
-    <div id="SaveWipeButton" onclick="document.getElementById('SaveWipeConfirmation').style.display='block'">Usuń zapis gry</div>
-    <div id="SaveWipeConfirmation" style="display:none;"><div class="WipeMsg">Czy na pewno chcesz to zrobić?</div><div class="WipeYes" onclick="localStorage.clear(); document.getElementById('SaveWipeConfirmation').style.display='none'; location.reload()">Tak</div><div class="WipeNo" onclick="document.getElementById('SaveWipeConfirmation').style.display='none';">Nie</div></div>
-    <div class="Msg" id="Msg" style="display:none;"><div id="MsgContent">Czy na pewno chcesz to zrobić?</div><div class="LevelYes" onclick="document.getElementById('Msg').style.display='none';">OK</div></div>
+    <div id="SaveWipeButton" onclick="document.getElementById('SaveWipeConfirmation').style.display='block'">Delete save</div>
+    <div id="SaveWipeConfirmation" style="display:none;"><div class="WipeMsg">Are you sure?</div><div class="WipeYes" onclick="localStorage.clear(); document.getElementById('SaveWipeConfirmation').style.display='none'; location.reload()">Yes</div><div class="WipeNo" onclick="document.getElementById('SaveWipeConfirmation').style.display='none';">No</div></div>
+    <div class="Msg" id="Msg" style="display:none;"><div id="MsgContent">Are you sure?</div><div class="LevelYes" onclick="document.getElementById('Msg').style.display='none';">OK</div></div>
 
     <div id="charEnergy">200.00</div>
-    <div id="craftingButton" onclick="document.getElementById('craftingMenu').style.visibility = 'visible';">Stwórz przedmiot </div>
+    <div id="craftingButton" onclick="document.getElementById('craftingMenu').style.visibility = 'visible';">Craft</div>
     <div id="craftingMenu" style="visibility:hidden;">
         <img src="img/exit.png" class="exit" onclick="document.getElementById('craftingMenu').style.visibility = 'hidden';"/>
         <div id="LeftItem" onclick="OpenCrafting('Left')"></div>
